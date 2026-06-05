@@ -1,0 +1,34 @@
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+temp.txt
+temp2.txt
+temp_kontak.txt
+temp_pimpinan.txt
+temp_slider.txt
+temp_slider_end.txt
+mojibake_lines.txt
+kampung_list.txt
+
+# Scripts
+fix.ps1
+
+# Node modules (if added later)
+node_modules/
+.vercel/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
