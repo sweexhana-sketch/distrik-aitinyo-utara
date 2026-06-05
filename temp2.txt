@@ -1,0 +1,41 @@
+﻿</div>
+
+<!-- LAYANAN PUBLIK -->
+<div id="layanan" class="section section-alt">
+  <div class="container">
+    <div class="section-header">
+      <h2>Layanan Publik</h2>
+      <div class="divider-img"></div>
+      <p>Akses berbagai layanan pemerintah Distrik Aitinyo Utara dengan mudah dan transparan.</p>
+    </div>
+    <div class="layanan-grid">
+      <a href="#" class="layanan-item"><div class="layanan-ikon">📋</div><div class="layanan-nama">Administrasi Kependudukan</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">🏗️</div><div class="layanan-nama">Perizinan Usaha</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">âš–ï¸</div><div class="layanan-nama">Mediasi & Sengketa</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">🌾</div><div class="layanan-nama">Pemberdayaan Kampung</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">ðŸŽ“</div><div class="layanan-nama">Pendidikan & Sosial</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">ðŸŒ¿</div><div class="layanan-nama">Lingkungan & Adat</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">🏥</div><div class="layanan-nama">Kesehatan Masyarakat</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">📊</div><div class="layanan-nama">Data & Statistik</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">💬</div><div class="layanan-nama">Pengaduan Online</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">🗺️</div><div class="layanan-nama">Peta Wilayah</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">🤝</div><div class="layanan-nama">Bantuan Sosial</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">🏆</div><div class="layanan-nama">Penghargaan</div></a>
+    </div>
+  </div>
+</div>
+
+<!-- BERITA -->
+<div id="berita" class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Berita Terkini</h2>
+      <div class="divider-img"></div>
+    </div>
+    <div class="berita-grid">
+      <div class="berita-utama">
+        <img src="Lambang_Kabupaten_Maybrat,_Papua_Barat.jpg" alt="Berita utama">
+        <div class="body">
+          <span class="cat">Kegiatan Distrik</span>
+          <h3>Musrenbang Distrik Aitinyo Utara Tahun Anggaran 2027 Segera Dilaksanakan</h3>
+          <p>Pemerintah Distrik Aitinyo Utara mengundang seluruh kepala kampung dan tokoh masyarakat untuk menghadiri Musyawarah Rencana Pembangunan (Musrenbang) dalam rangka penyusunan rencana pembangunan distrik tahun anggaran 2027. Kegiatan ini merupakan forum penting dalam perencanaan pembangunan yang partisipatif.</p>

@@ -1,0 +1,142 @@
+﻿  background:rgba(255,255,255,0.1);
+  display:flex;align-items:center;justify-content:center;font-size:16px;
+  text-decoration:none;transition:all 0.2s;
+}
+.sosmed a:hover{background:var(--biru);}
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,0.08);
+  padding:16px 20px;
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:11px;color:rgba(255,255,255,0.4);
+  flex-wrap:wrap;gap:8px;
+}
+.footer-logo-strip{
+  display:flex;gap:16px;align-items:center;margin-top:16px;
+  padding:12px;background:rgba(255,255,255,0.05);border-radius:8px;
+}
+.badge-gov{
+  font-size:10px;color:rgba(255,255,255,0.5);
+  border:1px solid rgba(255,255,255,0.15);
+  padding:4px 10px;border-radius:3px;white-space:nowrap;
+}
+
+@media(max-width:900px){
+  nav a{padding:0 9px;font-size:12px;}
+  .berita-grid{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr 1fr;}
+  .galeri-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto;}
+  .galeri-item.span2{grid-column:span 1;}
+}
+@media(max-width:600px){
+  nav{display:none;}
+  .slide-content{padding:0 24px;}
+  .footer-grid{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-left">
+      <span>📅 Minggu, 31 Mei 2026</span>
+      <span>|</span>
+      <span>ðŸ• Zona Waktu: WIT (UTC+9)</span>
+    </div>
+    <div class="topbar-right">
+      <a href="#">Beranda</a>
+      <a href="#">PPID</a>
+      <a href="#">Pengaduan</a>
+      <a href="#" style="background:var(--merah);border-radius:3px;padding:3px 10px;">ðŸ” Masuk</a>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="header-inner">
+    <a href="#" class="logo-area">
+      <div class="logo-seal"><img src="Lambang_Kabupaten_Maybrat,_Papua_Barat.jpg" style="width:100%;height:100%;object-fit:contain;border-radius:50%;" alt="Logo Kabupaten Maybrat"></div>
+      <div class="logo-text">
+        <div class="nama">Distrik Aitinyo Utara</div>
+        <div class="sub">Kabupaten Maybrat · Papua Barat Daya</div>
+      </div>
+    </a>
+    <nav>
+      <a href="#beranda" class="active">Beranda</a>
+      <a href="#profil">Profil</a>
+      <a href="#berita">Berita</a>
+      <a href="#layanan">Layanan</a>
+      <a href="#dokumen">Dokumen</a>
+      <a href="#wisata">Wisata</a>
+      <a href="#kontak">Kontak</a>
+      <a href="#" class="nav-btn">📢 Pengaduan</a>
+    </nav>
+  </div>
+</header>
+
+<!-- TICKER -->
+<div class="ticker-bar">
+  <div class="ticker-label">📢 Pengumuman</div>
+  <div class="ticker-track">
+    <div class="ticker-scroll">
+      <span>Musrenbang Distrik Aitinyo Utara TA 2027 akan segera dilaksanakan — seluruh Kepala Kampung diwajibkan hadir</span>
+      <span class="ticker-sep">◆</span>
+      <span>Pelayanan administrasi kependudukan: Senin–Kamis 08.00–16.00 WIT | Jumat 08.00–11.00 WIT</span>
+      <span class="ticker-sep">◆</span>
+      <span>Peningkatan infrastruktur jalan distrik sepanjang 12 km telah dimulai — mohon masyarakat berhati-hati</span>
+      <span class="ticker-sep">◆</span>
+      <span>Pendaftaran program beasiswa anak kampung Aitinyo Utara dibuka hingga 30 Juni 2026</span>
+      <span class="ticker-sep">◆</span>
+      <span>Musrenbang Distrik Aitinyo Utara TA 2027 akan segera dilaksanakan — seluruh Kepala Kampung diwajibkan hadir</span>
+      <span class="ticker-sep">◆</span>
+      <span>Pelayanan administrasi kependudukan: Senin–Kamis 08.00–16.00 WIT | Jumat 08.00–11.00 WIT</span>
+      <span class="ticker-sep">◆</span>
+      <span>Peningkatan infrastruktur jalan distrik sepanjang 12 km telah dimulai — mohon masyarakat berhati-hati</span>
+      <span class="ticker-sep">◆</span>
+      <span>Pendaftaran program beasiswa anak kampung Aitinyo Utara dibuka hingga 30 Juni 2026</span>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- LAYANAN PUBLIK -->
+<div id="layanan" class="section section-alt">
+  <div class="container">
+    <div class="section-header">
+      <h2>Layanan Publik</h2>
+      <div class="divider-img"></div>
+      <p>Akses berbagai layanan pemerintah Distrik Aitinyo Utara dengan mudah dan transparan.</p>
+    </div>
+    <div class="layanan-grid">
+      <a href="#" class="layanan-item"><div class="layanan-ikon">ðŸ“‹</div><div class="layanan-nama">Administrasi Kependudukan</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">ðŸ—ï¸</div><div class="layanan-nama">Perizinan Usaha</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">âš–ï¸</div><div class="layanan-nama">Mediasi & Sengketa</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">ðŸŒ¾</div><div class="layanan-nama">Pemberdayaan Kampung</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">ðŸŽ“</div><div class="layanan-nama">Pendidikan & Sosial</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">ðŸŒ¿</div><div class="layanan-nama">Lingkungan & Adat</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">ðŸ¥</div><div class="layanan-nama">Kesehatan Masyarakat</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">📊</div><div class="layanan-nama">Data & Statistik</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">ðŸ’¬</div><div class="layanan-nama">Pengaduan Online</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">ðŸ—ºï¸</div><div class="layanan-nama">Peta Wilayah</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">ðŸ¤</div><div class="layanan-nama">Bantuan Sosial</div></a>
+      <a href="#" class="layanan-item"><div class="layanan-ikon">ðŸ†</div><div class="layanan-nama">Penghargaan</div></a>
+    </div>
+  </div>
+</div>
+
+<!-- BERITA -->
+<div id="berita" class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Berita Terkini</h2>
+      <div class="divider-img"></div>
+    </div>
+    <div class="berita-grid">
+      <div class="berita-utama">
+        <img src="Lambang_Kabupaten_Maybrat,_Papua_Barat.jpg" alt="Berita utama">
+        <div class="body">
+          <span class="cat">Kegiatan Distrik</span>
+          <h3>Musrenbang Distrik Aitinyo Utara Tahun Anggaran 2027 Segera Dilaksanakan</h3>
+          <p>Pemerintah Distrik Aitinyo Utara mengundang seluruh kepala kampung dan tokoh masyarakat untuk menghadiri Musyawarah Rencana Pembangunan (Musrenbang) dalam rangka penyusunan rencana pembangunan distrik tahun anggaran 2027. Kegiatan ini merupakan forum penting dalam perencanaan pembangunan yang partisipatif.</p>

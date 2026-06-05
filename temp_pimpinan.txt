@@ -1,0 +1,30 @@
+﻿    </div>
+  </div>
+</div>
+
+<!-- PIMPINAN DAERAH -->
+<div id="pimpinan" class="section" style="background:#fff;">
+  <div class="container">
+    <div class="section-header">
+      <h2>Pimpinan Daerah</h2>
+      <div class="divider-img"></div>
+      <p>Pemerintah Kabupaten Maybrat</p>
+    </div>
+    <div class="pimpinan-grid" style="display:flex; justify-content:center; gap:40px; flex-wrap:wrap; margin-top:20px;">
+      <div class="pimpinan-card" style="text-align:center; background:#f9fafb; border:1px solid #e5e7eb; border-radius:12px; padding:24px; width:300px; box-shadow:0 4px 6px rgba(0,0,0,0.05); transition:transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+        <img src="bupati.jpg" alt="Bupati Maybrat" style="width:200px; height:260px; object-fit:cover; object-position:top; border-radius:8px; margin-bottom:16px; border:3px solid var(--emas); box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+        <h3 style="font-size:18px; color:var(--biru-tua); margin-bottom:4px;">Bupati Maybrat</h3>
+      </div>
+      <div class="pimpinan-card" style="text-align:center; background:#f9fafb; border:1px solid #e5e7eb; border-radius:12px; padding:24px; width:300px; box-shadow:0 4px 6px rgba(0,0,0,0.05); transition:transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+        <img src="wakil_bupati.png" alt="Wakil Bupati Maybrat" style="width:200px; height:260px; object-fit:cover; object-position:top; border-radius:8px; margin-bottom:16px; border:3px solid var(--emas); box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+        <h3 style="font-size:18px; color:var(--biru-tua); margin-bottom:4px;">Wakil Bupati Maybrat</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LAYANAN PUBLIK -->
+<div id="layanan" class="section section-alt">
+  <div class="container">
+    <div class="section-header">
+      <h2>Layanan Publik</h2>

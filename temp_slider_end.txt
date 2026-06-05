@@ -1,0 +1,21 @@
+﻿    <button class="dot" onclick="goSlide(1)"></button>
+    <button class="dot" onclick="goSlide(2)"></button>
+    <button class="dot" onclick="goSlide(3)"></button>
+  </div>
+</div>
+
+<!-- STATISTIK -->
+<div class="stats-section">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-box"><div class="angka">10+</div><div class="label">Kampung</div></div>
+      <div class="stat-box"><div class="angka">96.10.07</div><div class="label">Kode Wilayah</div></div>
+      <div class="stat-box"><div class="angka">352 m</div><div class="label">Elevasi</div></div>
+      <div class="stat-box"><div class="angka">98265</div><div class="label">Kode Pos</div></div>
+      <div class="stat-box"><div class="angka">WIT</div><div class="label">Zona Waktu</div></div>
+      <div class="stat-box"><div class="angka">2009</div><div class="label">Kab. Maybrat Berdiri</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- PIMPINAN DAERAH -->
