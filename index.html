@@ -10,30 +10,40 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
-html, body {
+/* === NUCLEAR ANTI-DARK-MODE === */
+html, body, *, *::before, *::after {
   color-scheme: light only !important;
-  -webkit-text-fill-color: initial !important;
+}
+html[data-darkreader-mode] *,
+html[data-darkreader-scheme="dark"] * {
+  all: revert !important;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --merah:#c0392b;
-    --biru-tua:#1a3a5c;
-    --biru:#2574a9;
-    --biru-muda:#e8f4fd;
-    --abu-tua:#333;
-    --abu:#666;
-    --abu-muda:#f5f5f5;
-    --emas:#e8a020;
-    --putih:#fff;
-    --hijau:#1e7e4a;
+    --merah:#c0392b !important;
+    --biru-tua:#1a3a5c !important;
+    --biru:#2574a9 !important;
+    --biru-muda:#e8f4fd !important;
+    --abu-tua:#333 !important;
+    --abu:#666 !important;
+    --abu-muda:#f5f5f5 !important;
+    --emas:#e8a020 !important;
+    --putih:#fff !important;
+    --hijau:#1e7e4a !important;
     color-scheme: light only !important;
   }
-  html, body {
-    background-color: #f0f2f5 !important;
-    color: #333 !important;
-  }
-  img { filter: none !important; }
+  html { background-color: #f0f2f5 !important; color: #333 !important; }
+  body { background-color: #f0f2f5 !important; color: #333 !important; }
+  img, video, picture, svg, canvas { filter: none !important; mix-blend-mode: normal !important; }
+  .topbar { background: linear-gradient(135deg, #0d1f35 0%, #1a3a5c 100%) !important; }
+  .header-area { background: #fff !important; }
+  .stats-section { background: linear-gradient(135deg, #0d1f35 0%, #1a3a5c 100%) !important; }
+  footer { background: #0d1f35 !important; }
+  .tab-nav { background: #fff !important; }
+  .berita-card, .layanan-item { background: #fff !important; }
+  .pengaduan-box { background: linear-gradient(135deg, #1a3a5c, #2574a9) !important; }
 }
+/* === END ANTI-DARK-MODE === */
 :root{
   --merah:#c0392b;
   --biru-tua:#1a3a5c;
